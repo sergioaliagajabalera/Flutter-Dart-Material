@@ -1,3 +1,6 @@
+/*for taste anyone code in dart, I recommended use dartpad in web or aplication mobile
+https://dartpad.dev/ */
+
 import 'package:flutter/material.dart';
 import 'custom_widgets.dart';//in this library we have all widgets create by us
 

@@ -1,4 +1,4 @@
 //in this file, put all widgets
-export 'src/myinfo.dart';
-export 'src/about.dart';
-export 'src/mainscreen.dart';
+export 'src/views/myinfo.dart';
+export 'src/views/about.dart';
+export 'src/views/mainscreen.dart';
