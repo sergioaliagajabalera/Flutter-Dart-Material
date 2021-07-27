@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../animation/animated1.dart';
 
 class Aboutscreen extends StatelessWidget {
   @override
@@ -9,6 +10,7 @@ class Aboutscreen extends StatelessWidget {
         title: Text('ABOUT'),
         backgroundColor: Colors.deepOrange,
       ),
+      body: Animation1()
     );
   }
 }

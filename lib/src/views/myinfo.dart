@@ -29,7 +29,7 @@ class MyInfoscreen extends StatelessWidget {
         ));
   }
 
-  //OBJECTS
+  //OBJECTS, Arrays, funtions, etc
   var mainuser = new User('Sergio', 'Aliaga', DateTime.parse("1969-07-20"),
       'España', 'Barcelona', '6484845', '9384835');
   var listcolor=[Colors.teal, Colors.blueGrey,Colors.indigo,Colors.green, Colors.limeAccent,Colors.orange, Colors.yellow];
