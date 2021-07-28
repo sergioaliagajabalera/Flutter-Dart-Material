@@ -25,9 +25,10 @@ class _Animation1State extends State<Animation1> {
               children: [ 
                 Container(
                  child: GestureDetector(
-                  onTap: () {
-                    _changeSize();
-                }),
+                  onLongPress: (){ _changeSize(true);},
+                  onLongPressEnd: (LongPressEndDetails longPressEndDetails){ _changeSize(false);},
+                  ),
+
                   width: width,
                   height: height,
                   decoration: BoxDecoration(
@@ -63,10 +64,15 @@ class _Animation1State extends State<Animation1> {
     });
 
   }
-  void _changeSize(){
+  void _changeSize(bool pressed){
      setState(() {
-        width=400;
-        height=400;
+        if(pressed){
+          width=400;
+          height=400;
+        }else{
+          width=300;
+          height=300;
+        }
      });
   }
 }

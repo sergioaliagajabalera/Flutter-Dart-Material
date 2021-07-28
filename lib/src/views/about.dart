@@ -10,7 +10,16 @@ class Aboutscreen extends StatelessWidget {
         title: Text('ABOUT'),
         backgroundColor: Colors.deepOrange,
       ),
-      body: Animation1()
-    );
+      body:SingleChildScrollView( 
+        child: Column(
+          children: [
+            Animation1(),
+            Animation1(),
+            Animation1(),
+          ],
+
+        )
+          
+    ));
   }
 }
