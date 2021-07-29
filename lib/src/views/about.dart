@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../animation/animated1.dart';
+import '../animation/animation1.dart';
 
 class Aboutscreen extends StatelessWidget {
   @override
@@ -13,9 +13,9 @@ class Aboutscreen extends StatelessWidget {
       body:SingleChildScrollView( 
         child: Column(
           children: [
-            Animation1(),
-            Animation1(),
-            Animation1(),
+            Animation1(image:'assets/images/guizmo.png',width:300,height:300),
+            Animation1(image:'assets/images/guizmo.png',width:50,height:50),
+            Animation1(image:'assets/images/guizmo.png',width:300,height:300),
           ],
 
         )
